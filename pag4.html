@@ -48,7 +48,20 @@
           <label for="ruim"> Ruim </label>
           <label for="visita"> Com que frequência você nos visita? </label>
           <select id="visita" name="visita" required>
-            <option value=""> Selecione </option>9
+            <option value=""> Selecione </option>
+            <option value="primeira"> Vim pela primeira vez </option>
+            <option value="dia"> Venho todos os dias! </option>
+            <option value="semana"> Venho uma vez por semana </option>
+            <option value="mensal"> Venho uma vez por mês </option>
+          </select>
+         <label for="mensagem"> Deixe seu comentário! </label>
+         <textarea id="mensagem" name="mensagem" rows="5" required 
+         minlength="10" maxlength="500"
+         placeholder="O que você achou da gente?">
+         </textarea>
+         <input type="checkbox" id="aceite" name="aceite" required>
+         <label for="aceite"> Concordo que meu nome e opinião apareçam no site. </label>
+        </fieldset>
   <footer>
     <div class="contato">
       <h3>Contato:</h3>
